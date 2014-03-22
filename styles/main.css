@@ -5,11 +5,21 @@ body {
 }
 
 header {
+	border-radius: 5px;
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	color: black;
+	font-size: 200%;
+	padding: 4%;
+}
+
+#content {
 	border: 1px solid black;
 	border-radius: 5px;
-	background-color: gray;
-	opacity: 0.5;
-	height: 50%;
+	background-color: white;
+	opacity: 0.68;
+	height: 70%;
 	width: 50%;
 	margin: 0 auto;
 	text-align: center;
@@ -18,13 +28,14 @@ header {
 	padding: 5%;
 }
 
-#content {
-	background-color: white;
-	opacity: 0.73;
-	height: 50%;
-	width: 50%;
+#additem {
+	margin: 0 auto;
+	font-size: 50%;
+	text-align: center;
+	width: 70%;
 }
 
+/*
 footer {
 	border: 1px solid black;
 	bottom: 0;
@@ -36,3 +47,4 @@ footer {
 	font-color: black;
 	font-weight: bold;
 }
+*/
