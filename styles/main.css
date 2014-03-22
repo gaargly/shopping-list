@@ -1,0 +1,38 @@
+body {
+	background: url('../images/grocery-bag.jpg') no-repeat center center fixed;
+	font-family: Arial, sans-serif;
+	text-align: center;
+}
+
+header {
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: gray;
+	opacity: 0.5;
+	height: 50%;
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	color: black;
+	font-size: 200%;
+	padding: 5%;
+}
+
+#content {
+	background-color: white;
+	opacity: 0.73;
+	height: 50%;
+	width: 50%;
+}
+
+footer {
+	border: 1px solid black;
+	bottom: 0;
+	height: 1%;
+	margin: 0 auto;
+	font-size: 50%;
+	text-align: center;
+	padding: 1%;
+	font-color: black;
+	font-weight: bold;
+}
