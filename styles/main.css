@@ -45,6 +45,10 @@ header {
 	padding: 5%;
 }
 
+#button{
+	
+}
+
 
 #list {
 	margin: 0 auto;
@@ -56,4 +60,10 @@ header {
 	width: 20px;
 	margin-right: 5%;
 	vertical-align: top;
+}
+
+/* Strikethrough */
+
+.complete {
+	text-decoration: line-through;
 }

@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="styles/main.css">
+	<script src="http://code.jquery.com/jquery.min.js"></script>
 	<script src="scripts/app.js"></script>
 	<title>My Shopping List</title>
 </head>
@@ -13,16 +14,16 @@
 	<div id="content">
 		<form action="">
 			<input id="additem" type="text" name="additem" value="Add New Item">
-			<input id="additem" type="submit" value="Add">
+			<input id="button" type="submit" value="Add">
 		</form>
 		<div id="list">
 			<!--Soon to be replaced with User Input-->
-			<ul>
+			<ul id="list_items">
 				<li class="item"><img class="delete" src="images/trash.png" alt="delete"><span>Almond Milk</span></li>
 				<li class="item"><img class="delete" src="images/trash.png" alt="delete"><span>Rice</span></li>
 				<li class="item"><img class="delete" src="images/trash.png" alt="delete"><span>Radishes</span></li>
 				<li class="item"><img class="delete" src="images/trash.png" alt="delete"><span>Hand towels</span></li>
-				<li class="item"><img class="delete" src="images/trash.png" alt="delete"><span>Almond Milk</span></li>
+				<li class="item"><img class="delete" src="images/trash.png" alt="delete"><span>Sunflower seeds and cashew butter</span></li>
 			</ul>		
 		</div>
 	</div>
