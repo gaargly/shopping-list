@@ -1,18 +1,24 @@
 List of behavioral components:
 
-
+======
 MVP
+======
 
 * When user adds new item and hits "Add" then item slides to top of shopping list --> DONE!
 
-* When user adds new item and hits enter on their keyboard then item slides to top of shopping list
+* When user adds new item and hits enter on their keyboard then item slides to top of shopping list --> DONE!
 
-* When user clicks already added item, font becomes strikethrough (toggle on and off), or if already strikethrough then becomes normal again
+* When user clicks already added item, font becomes strikethrough (toggle on and off), --> DONE!
 
-* When user clicks trash can symbol next to item, item disappears
+* or if already strikethrough then becomes normal again --> DONE!
 
+* When user clicks trash can symbol next to item, item disappears --> DONE!
 
+* ALL OF THE ABOVE APPLIES TO NEW THINGS USER IS ADDING
+
+===============
 NICE TO HAVES
+===============
 
 * Alphabetize button that allows you to sort list alphabetically
 
