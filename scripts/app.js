@@ -13,18 +13,14 @@ $(document).ready(function(){
 
 // On click, mark list item as complete or incomplete
 
-	$('span').click(function() {
+	$('ul').on('click', 'span', function() {
 		$(this).toggleClass('complete');
 	});
 
-
 // Clicking garbage can icon makes li invisible
 
-	$('.delete').click(function() {
-		$(this).parent('li').hide();
-		event.preventDefault();
-		event.stopPropagation();
+		$('ul').on('click', '.delete', function() {
+		$(this).closest('li').hide();
 	});
-
 
 });
